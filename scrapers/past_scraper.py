@@ -21,6 +21,6 @@ driver.get(url)
 driver.implicitly_wait(20)
 
 stats = driver.find_element(By.CSS_SELECTOR, "tbody.Crom_body__UYOcU")
-print(stats.text)
+
 
 driver.quit()
